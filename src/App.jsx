@@ -1,5 +1,6 @@
 import Header from './components/Header.jsx';
 import gradient from './assets/gradient.png';
+import Hero from './components/Hero.jsx';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       -rotate-[30deg] -z-10"></div>
 
       <Header />
+      <Hero />
 
     </main>
   )
