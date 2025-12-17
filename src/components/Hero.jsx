@@ -28,6 +28,13 @@ const Hero = () => {
                 with ease using our powerful API and
                 developer-friendly tools.
             </p>
+
+            <div>
+                <a className='border border-[#2a2a2a] py-2 sm:py-3 px-4
+                sm:px-5 rounded-full sm:text-lg text-sm'href="#">
+                    Documentation <i class='bx bx-link-external'></i>
+                </a>
+            </div>
         </div>
     </main>
 
