@@ -4,12 +4,13 @@ const Hero = () => {
   return (
     <main className="flex lg:mt-20 flex-col lg:flew-row
     items-center justify-between min-h-[calc(90vh-6rem)]">
+
         <div className="max-w-x1 m1-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
             <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r
-            from-[#f5f7fa] to-[#c3cfe2] shadow-[0__15px_rgba(255,255,255,0.4)]
+            from-[#656565] to-[#e99b63] shadow-[0_0_15px_rgba(255,255,255,0.4)]
             rounded-full">
                 <div className="absolute inset-[3px] bg-black rounded-full
-                flex items-center justify-center">
+                flex items-center justify-center gap-1">
                     <i class='bx bx-diamond'></i>
                     INTRODUCING
                 </div>
@@ -29,10 +30,18 @@ const Hero = () => {
                 developer-friendly tools.
             </p>
 
-            <div>
+            <div className="flex gap-4 mt-12">
                 <a className='border border-[#2a2a2a] py-2 sm:py-3 px-4
-                sm:px-5 rounded-full sm:text-lg text-sm'href="#">
+                sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider
+                transition-all duration-300 hover:bg[#1a1a1a]'href="#">
                     Documentation <i class='bx bx-link-external'></i>
+                </a>
+
+                <a className='border border-[#2a2a2a] py-2 sm:py-3 px-4
+                sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider
+                transition-all duration-300 hover:bg[#1a1a1a] bg-gray-300 text-black
+                hover:text-white' href="#">
+                    Get Started <i class='bx bx-link-external'></i>
                 </a>
             </div>
         </div>
